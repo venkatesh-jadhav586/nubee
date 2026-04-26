@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NubeeNest — Play. Learn. Grow.</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ══ OFFERS MARQUEE ══ -->
+  <div class="offers-marquee-wrap">
+    <div class="offers-marquee">
+      <span>🎉 LAUNCH OFFER — Flat 20% OFF on Educational Blocks</span>
+      <span>🚗 Buy 2 Toy Car Sets, Get 1 FREE</span>
+      <span>🧩 Puzzle Toy — ₹399 only (was ₹499)</span>
+      <span>🚚 FREE Delivery on orders above ₹499</span>
+      <span>📱 Order via WhatsApp &amp; get 10% instant discount</span>
+      <span>🎁 Gift wrapping FREE on all orders this week</span>
+      <span>🎉 LAUNCH OFFER — Flat 20% OFF on Educational Blocks</span>
+      <span>🚗 Buy 2 Toy Car Sets, Get 1 FREE</span>
+      <span>🧩 Puzzle Toy — ₹399 only (was ₹499)</span>
+      <span>🚚 FREE Delivery on orders above ₹499</span>
+      <span>📱 Order via WhatsApp &amp; get 10% instant discount</span>
+      <span>🎁 Gift wrapping FREE on all orders this week</span>
+    </div>
+  </div>
+
+  <!-- ══ HEADER ══ -->
+  <header>
+    <div class="logo-box">
+      <img src="images/WhatsApp Image 2026-03-31 at 18.18.41.jpeg" alt="NubeeNest Logo"
+           onerror="this.style.display='none';this.nextElementSibling.style.display='inline'">
+      <span class="logo-fallback">🪺 NubeeNest</span>
+    </div>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav id="main-nav">
+      <a href="#">Home</a>
+      <a href="#products">Products</a>
+      <a href="#wa-order">WhatsApp Order</a>
+      <a href="#stores">Stores</a>
+      <a href="#instagram">Instagram</a>
+      <a href="#games">🎮 Play Games</a>
+      <a href="#contact" class="nav-cta">Contact Us</a>
+    </nav>
+  </header>
+
+  <!-- ══ HERO ══ -->
+  <section class="hero">
+    <!-- crossfade background layers -->
+    <div class="hero-bg">
+      <div class="hero-bg-img hero-bg-img--1"></div>
+      <div class="hero-bg-img hero-bg-img--2"></div>
+      <div class="hero-bg-overlay"></div>
+    </div>
+
+    <!-- decorative blobs -->
+    <div class="blob blob-a"></div>
+    <div class="blob blob-b"></div>
+    <div class="blob blob-c"></div>
+    <div class="blob blob-d"></div>
+    <div class="hero-dots"></div>
+
+    <div class="hero-inner">
+      <div class="hero-text">
+        <div class="hero-pill">🌟 Trusted by 500+ Families</div>
+        <h1>
+          <span class="c1">Play</span> •
+          <span class="c2">Learn</span> •
+          <span class="c3">Grow</span>
+        </h1>
+        <p>Creative toys thoughtfully crafted to spark curiosity, build little skills, and fill every day with joy.</p>
+        <div class="hero-actions">
+          <a href="#products" class="btn-primary">Shop Now 🛍️</a>
+          <a href="#wa-order" class="btn-secondary">📱 Order on WhatsApp</a>
+        </div>
+      </div>
+
+      <div class="hero-mosaic">
+        <div class="mosaic-card">
+          <img src="https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=600&q=80" alt="Educational Blocks">
+          <div class="mosaic-tag">Age 3+</div>
+        </div>
+        <div class="mosaic-card">
+          <img src="https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=400&q=80" alt="Puzzle Toy">
+          <div class="mosaic-tag">Age 4+</div>
+        </div>
+        <div class="mosaic-card">
+          <img src="https://images.unsplash.com/photo-1594736797933-d0501ba2fe65?w=400&q=80" alt="Toy Car Set">
+          <div class="mosaic-tag">Age 2+</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ STATS ══ -->
+  <div class="stats-strip">
+    <div class="stat"><span class="stat-num">500+</span><span class="stat-lbl">Happy Families</span></div>
+    <div class="stat"><span class="stat-num">30+</span><span class="stat-lbl">Toy Collections</span></div>
+    <div class="stat"><span class="stat-num">3</span><span class="stat-lbl">Platforms</span></div>
+    <div class="stat"><span class="stat-num">4.9 ★</span><span class="stat-lbl">Avg. Rating</span></div>
+  </div>
+
+  <!-- ══ PRODUCTS ══ -->
+  <section id="products">
+    <div class="sec-center">
+      <div class="sec-eyebrow">✨ Our Toys</div>
+      <h2 class="sec-title">Kids Can't Stop Playing 🎉</h2>
+      <p class="sec-sub">Every toy is designed to delight, educate, and grow with your child — safe, vibrant, and built to last.</p>
+      <div class="age-filter">
+        <button class="age-btn active" data-age="all">All Ages</button>
+        <button class="age-btn" data-age="2">Age 2+</button>
+        <button class="age-btn" data-age="3">Age 3+</button>
+        <button class="age-btn" data-age="4">Age 4+</button>
+      </div>
+    </div>
+
+    <div class="product-grid">
+
+      <!-- Product 1: Educational Blocks -->
+      <div class="product-card reveal" data-age="3">
+        <div class="product-img-wrap">
+          <img src="https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=700&q=80" alt="Educational Blocks">
+          <div class="prod-emoji">🧱</div>
+          <div class="prod-age">Age 3+</div>
+          <div class="offer-badge">20% OFF</div>
+        </div>
+        <div class="product-info">
+          <h3>Educational Blocks</h3>
+          <p>Colourful stacking blocks that teach shapes, colours, and motor skills through hands-on play.</p>
+          <div class="price-block">
+            <span class="price-now">₹399</span>
+            <span class="price-was">₹499</span>
+            <span class="price-save">Save ₹100</span>
+          </div>
+          <div class="card-btns">
+            <a href="#" class="prod-btn">View Details</a>
+            <a href="https://wa.me/916362391450?text=Hi%20NubeeNest!%20I%27d%20like%20to%20order%20the%20Educational%20Blocks%20(Age%203%2B)%20at%20%E2%82%B9399."
+               target="_blank" rel="noopener" class="wa-order-btn">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Order on WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 2: Puzzle Toy -->
+      <div class="product-card reveal" data-age="4">
+        <div class="product-img-wrap">
+          <img src="https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=700&q=80" alt="Puzzle Toy">
+          <div class="prod-emoji">🧩</div>
+          <div class="prod-age">Age 4+</div>
+          <div class="offer-badge">Best Seller</div>
+        </div>
+        <div class="product-info">
+          <h3>Puzzle Toy</h3>
+          <p>Chunky, vibrant puzzles that sharpen problem-solving and keep little minds engaged for hours.</p>
+          <div class="price-block">
+            <span class="price-now">₹449</span>
+            <span class="price-was">₹599</span>
+            <span class="price-save">Save ₹150</span>
+          </div>
+          <div class="card-btns">
+            <a href="#" class="prod-btn">View Details</a>
+            <a href="https://wa.me/916362391450?text=Hi%20NubeeNest!%20I%27d%20like%20to%20order%20the%20Puzzle%20Toy%20(Age%204%2B)%20at%20%E2%82%B9449."
+               target="_blank" rel="noopener" class="wa-order-btn">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Order on WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 3: Toy Car Set -->
+      <div class="product-card reveal" data-age="2">
+        <div class="product-img-wrap">
+          <img src="https://images.unsplash.com/photo-1594736797933-d0501ba2fe65?w=700&q=80" alt="Toy Car Set">
+          <div class="prod-emoji">🚗</div>
+          <div class="prod-age">Age 2+</div>
+          <div class="offer-badge">Buy 2 Get 1</div>
+        </div>
+        <div class="product-info">
+          <h3>Toy Car Set</h3>
+          <p>Bright, durable toy cars for imaginative races, ramps, and adventures big or small.</p>
+          <div class="price-block">
+            <span class="price-now">₹299</span>
+            <span class="price-was">₹399</span>
+            <span class="price-save">Buy 2 Get 1 Free</span>
+          </div>
+          <div class="card-btns">
+            <a href="#" class="prod-btn">View Details</a>
+            <a href="https://wa.me/916362391450?text=Hi%20NubeeNest!%20I%27d%20like%20to%20order%20the%20Toy%20Car%20Set%20(Age%202%2B)%20with%20Buy%202%20Get%201%20Free%20offer."
+               target="_blank" rel="noopener" class="wa-order-btn">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Order on WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══ WHATSAPP ORDER ══ -->
+  <section id="wa-order" class="wa-section">
+    <div class="wa-section-inner">
+      <div class="wa-left">
+        <div class="wa-eyebrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          WhatsApp Ordering
+        </div>
+        <h2>Order Directly on <span class="wa-green">WhatsApp</span> — It's That Easy!</h2>
+        <p>No apps to download, no complicated checkouts. Just tap, message, and your favourite toy is on its way. Plus get an <strong>instant 10% discount</strong> when you order via WhatsApp!</p>
+        <div class="wa-steps">
+          <div class="wa-step">
+            <div class="wa-step-num">1</div>
+            <div class="wa-step-text"><strong>Pick Your Toy</strong><span>Browse our products above and click "Order on WhatsApp"</span></div>
+          </div>
+          <div class="wa-step">
+            <div class="wa-step-num">2</div>
+            <div class="wa-step-text"><strong>We Confirm Your Order</strong><span>We'll reply quickly with price, availability &amp; delivery date</span></div>
+          </div>
+          <div class="wa-step">
+            <div class="wa-step-num">3</div>
+            <div class="wa-step-text"><strong>Pay &amp; Receive</strong><span>Pay via UPI / bank transfer. We ship it right to your door!</span></div>
+          </div>
+        </div>
+        <a href="https://wa.me/916362391450?text=Hi%20NubeeNest!%20I%27d%20like%20to%20browse%20your%20toys%20and%20place%20an%20order."
+           target="_blank" rel="noopener" class="wa-cta-btn">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Start Ordering Now
+        </a>
+      </div>
+
+      <div class="wa-right">
+        <div class="wa-phone-card">
+          <div class="wa-phone-header">
+            <div class="wa-avatar">
+              <img src="images/WhatsApp Image 2026-03-31 at 18.18.41.jpeg" alt="NubeeNest" onerror="this.style.display='none'">
+            </div>
+            <div>
+              <div class="wa-chat-name">NubeeNest</div>
+              <div class="wa-chat-status">● Online</div>
+            </div>
+          </div>
+          <div class="wa-messages">
+            <div class="wa-msg recv" data-time="10:31 AM">Hi! Welcome to NubeeNest 🎉 What toy can I help you with today?</div>
+            <div class="wa-msg sent" data-time="10:32 AM">Hi! I'd like to order the Educational Blocks for my 3 year old 🧱</div>
+            <div class="wa-msg recv" data-time="10:32 AM">Great choice! The blocks are ₹399 (was ₹499). Free delivery above ₹499. Shall I confirm? 🚚</div>
+            <div class="wa-msg sent" data-time="10:33 AM">Yes please! Deliver to Mumbai 😊</div>
+            <div class="wa-msg recv" data-time="10:33 AM">Order confirmed! 🎊 You'll receive it in 2–3 days. Pay via UPI to 6362391450@upi. Thank you!</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ WHY US ══ -->
+  <section id="why">
+    <div class="sec-center">
+      <div class="sec-eyebrow">💛 Why NubeeNest</div>
+      <h2 class="sec-title">Made with Love for Every Child</h2>
+      <p class="sec-sub">We believe every toy should inspire joy, build skills, and guarantee safe, happy playtime.</p>
+    </div>
+    <div class="why-grid">
+      <div class="why-card reveal"><span class="why-icon">🛡️</span><h4>100% Safe Materials</h4><p>All toys are non-toxic, BPA-free, and certified safe for babies and toddlers.</p></div>
+      <div class="why-card reveal"><span class="why-icon">🎨</span><h4>Bright &amp; Colourful</h4><p>Vibrant designs that stimulate visual development and keep kids excited to play.</p></div>
+      <div class="why-card reveal"><span class="why-icon">🧠</span><h4>Skill-Building Play</h4><p>Each toy nurtures motor skills, creativity, and cognitive growth.</p></div>
+      <div class="why-card reveal"><span class="why-icon">🚀</span><h4>Fast Delivery</h4><p>Quick, careful shipping right to your door — so the fun starts sooner.</p></div>
+    </div>
+  </section>
+
+  <!-- ══ TESTIMONIALS ══ -->
+  <section id="testimonials">
+    <div class="sec-center">
+      <div class="sec-eyebrow">💬 Happy Parents</div>
+      <h2 class="sec-title">What Families Are Saying</h2>
+      <p class="sec-sub">Real reviews from real parents who trust NubeeNest toys every day.</p>
+    </div>
+    <div class="testimonials-track-wrap">
+      <div class="testimonials-track">
+        <div class="tcard"><div class="tcard-quote">"</div><div class="tcard-stars">★★★★★</div><p>My 3-year-old loves the building blocks! Quality is amazing — no sharp edges, super colourful.</p><div class="tcard-author"><div class="tcard-avatar" style="background:#6C3CE1">P</div><div><div class="tcard-name">Priya M.</div><div class="tcard-meta">Mom of 1 · Bangalore</div></div></div></div>
+        <div class="tcard"><div class="tcard-quote">"</div><div class="tcard-stars">★★★★★</div><p>The puzzle toy kept my daughter busy for hours! Delivery was super fast. Will definitely order again.</p><div class="tcard-author"><div class="tcard-avatar" style="background:#FF6F91">R</div><div><div class="tcard-name">Rahul S.</div><div class="tcard-meta">Dad of 2 · Mumbai</div></div></div></div>
+        <div class="tcard"><div class="tcard-quote">"</div><div class="tcard-stars">★★★★★</div><p>Ordered via WhatsApp — so easy! Got a reply in 2 minutes and toy arrived in 2 days. Amazing!</p><div class="tcard-author"><div class="tcard-avatar" style="background:#25D366">A</div><div><div class="tcard-name">Anita K.</div><div class="tcard-meta">Aunt · Chennai</div></div></div></div>
+        <div class="tcard"><div class="tcard-quote">"</div><div class="tcard-stars">★★★★★</div><p>NubeeNest toys are genuinely educational. Seen my son's motor skills improve so much. Totally worth it!</p><div class="tcard-author"><div class="tcard-avatar" style="background:#FFC84A;color:#1A1535">S</div><div><div class="tcard-name">Sneha D.</div><div class="tcard-meta">Mom of 1 · Pune</div></div></div></div>
+        <div class="tcard"><div class="tcard-quote">"</div><div class="tcard-stars">★★★★★</div><p>The 20% offer on blocks was a steal. WhatsApp ordering is so convenient — no complicated checkout!</p><div class="tcard-author"><div class="tcard-avatar" style="background:#4E27B0">V</div><div><div class="tcard-name">Vikram R.</div><div class="tcard-meta">Dad of 1 · Hyderabad</div></div></div></div>
+        <div class="tcard"><div class="tcard-quote">"</div><div class="tcard-stars">★★★★★</div><p>My twins both got a puzzle set and they race to finish them — so much fun! Highly recommend.</p><div class="tcard-author"><div class="tcard-avatar" style="background:#2DDAB4;color:#1A1535">M</div><div><div class="tcard-name">Meena T.</div><div class="tcard-meta">Mom of 2 · Delhi</div></div></div></div>
+        <!-- duplicates for infinite loop -->
+        <div class="tcard"><div class="tcard-quote">"</div><div class="tcard-stars">★★★★★</div><p>My 3-year-old loves the building blocks! Quality is amazing — no sharp edges, super colourful.</p><div class="tcard-author"><div class="tcard-avatar" style="background:#6C3CE1">P</div><div><div class="tcard-name">Priya M.</div><div class="tcard-meta">Mom of 1 · Bangalore</div></div></div></div>
+        <div class="tcard"><div class="tcard-quote">"</div><div class="tcard-stars">★★★★★</div><p>The puzzle toy kept my daughter busy for hours! Delivery was super fast. Will definitely order again.</p><div class="tcard-author"><div class="tcard-avatar" style="background:#FF6F91">R</div><div><div class="tcard-name">Rahul S.</div><div class="tcard-meta">Dad of 2 · Mumbai</div></div></div></div>
+        <div class="tcard"><div class="tcard-quote">"</div><div class="tcard-stars">★★★★★</div><p>Ordered via WhatsApp — so easy! Got a reply in 2 minutes and toy arrived in 2 days. Amazing!</p><div class="tcard-author"><div class="tcard-avatar" style="background:#25D366">A</div><div><div class="tcard-name">Anita K.</div><div class="tcard-meta">Aunt · Chennai</div></div></div></div>
+        <div class="tcard"><div class="tcard-quote">"</div><div class="tcard-stars">★★★★★</div><p>NubeeNest toys are genuinely educational. Seen my son's motor skills improve so much. Totally worth it!</p><div class="tcard-author"><div class="tcard-avatar" style="background:#FFC84A;color:#1A1535">S</div><div><div class="tcard-name">Sneha D.</div><div class="tcard-meta">Mom of 1 · Pune</div></div></div></div>
+        <div class="tcard"><div class="tcard-quote">"</div><div class="tcard-stars">★★★★★</div><p>The 20% offer on blocks was a steal. WhatsApp ordering is so convenient — no complicated checkout!</p><div class="tcard-author"><div class="tcard-avatar" style="background:#4E27B0">V</div><div><div class="tcard-name">Vikram R.</div><div class="tcard-meta">Dad of 1 · Hyderabad</div></div></div></div>
+        <div class="tcard"><div class="tcard-quote">"</div><div class="tcard-stars">★★★★★</div><p>My twins both got a puzzle set and they race to finish them — so much fun! Highly recommend.</p><div class="tcard-author"><div class="tcard-avatar" style="background:#2DDAB4;color:#1A1535">M</div><div><div class="tcard-name">Meena T.</div><div class="tcard-meta">Mom of 2 · Delhi</div></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ STORES ══ -->
+  <section id="stores">
+    <div class="sec-center">
+      <div class="sec-eyebrow">🛍️ Available On</div>
+      <h2 class="sec-title">Shop Wherever You Like</h2>
+      <p class="sec-sub">NubeeNest toys are on all major platforms — pick your favourite and start shopping!</p>
+    </div>
+    <div class="stores-wrap">
+      <a href="https://amzn.in/d/06avxXTL" target="_blank" rel="noopener" class="store-btn amazon reveal">Amazon</a>
+      <a href="#" class="store-btn flipkart reveal">Flipkart</a>
+    </div>
+  </section>
+
+  <!-- ══ INSTAGRAM ══ -->
+  <section id="instagram">
+    <div class="insta-banner reveal">
+      <div class="insta-left">
+        <div class="insta-icon">📸</div>
+        <h2>Follow Us on Instagram!</h2>
+        <p>See our toys in action, get parenting inspiration, and join a community of happy families.</p>
+        <div class="insta-handle">@nubeenest.in</div>
+        <a href="https://www.instagram.com/nubeenest.in?igsh=MWZjMnIwZnNvZ2t3ZQ==" target="_blank" rel="noopener" class="btn-insta">
+          <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          Follow on Instagram
+        </a>
+      </div>
+      <div class="insta-right">
+        <div class="insta-img"><img src="https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=300&q=80" alt="Post 1"></div>
+        <div class="insta-img insta-img-2"><img src="https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=300&q=80" alt="Post 2"></div>
+        <div class="insta-img"><img src="https://images.unsplash.com/photo-1594736797933-d0501ba2fe65?w=300&q=80" alt="Post 3"></div>
+        <div class="insta-img insta-img-2 insta-more">+ More on<br>Instagram</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ KIDS GAMES ══ -->
+  <section id="games">
+    <div class="sec-center">
+      <div class="sec-eyebrow">🎮 Play Corner</div>
+      <h2 class="sec-title">Fun Games for Little Minds! 🌈</h2>
+      <p class="sec-sub">Take a break and play! These mini-games are designed just for kids — tap, match, count, and pop!</p>
+    </div>
+    <div class="games-grid">
+
+      <!-- Memory Match -->
+      <div class="game-card reveal">
+        <div class="game-header">
+          <div class="game-icon purple">🧠</div>
+          <div class="game-meta"><h3>Memory Match</h3><span>Find all the pairs! 🃏</span></div>
+        </div>
+        <div class="game-area">
+          <div class="game-score">
+            <span>Moves: <span id="mem-moves">0</span></span>
+            <span class="game-score-num">Pairs: <span id="mem-pairs">0</span>/8</span>
+          </div>
+          <div class="memory-grid" id="memGrid"></div>
+          <button class="game-btn" onclick="initMemory()">🔄 New Game</button>
+        </div>
+      </div>
+
+      <!-- Colour Match -->
+      <div class="game-card reveal">
+        <div class="game-header">
+          <div class="game-icon pink">🎨</div>
+          <div class="game-meta"><h3>Colour Match</h3><span>Tap the RIGHT colour! 🌈</span></div>
+        </div>
+        <div class="game-area">
+          <div class="colour-display">
+            <div class="colour-word" id="colourWord">RED</div>
+            <div class="colour-prompt">Tap the colour of the <strong>text</strong>, not the word!</div>
+          </div>
+          <div class="colour-options" id="colourOpts"></div>
+          <div class="colour-score">Score: <span id="colourScore">0</span> &nbsp;|&nbsp; Best: <span id="colourBest">0</span></div>
+        </div>
+      </div>
+
+      <!-- Count & Pick -->
+      <div class="game-card reveal">
+        <div class="game-header">
+          <div class="game-icon yellow">🔢</div>
+          <div class="game-meta"><h3>Count &amp; Pick</h3><span>How many can you count? ⭐</span></div>
+        </div>
+        <div class="game-area">
+          <div class="count-display">
+            <div class="count-emojis" id="countEmojis"></div>
+            <div class="count-question" id="countQ">How many are there?</div>
+          </div>
+          <div class="count-options" id="countOpts"></div>
+          <div class="count-result" id="countResult"></div>
+          <div class="colour-score" style="margin-top:8px">Score: <span id="countScore">0</span></div>
+        </div>
+      </div>
+
+      <!-- Balloon Pop -->
+      <div class="game-card reveal">
+        <div class="game-header">
+          <div class="game-icon green">🎈</div>
+          <div class="game-meta"><h3>Balloon Pop!</h3><span>Pop as many as you can! 💥</span></div>
+        </div>
+        <div class="game-area">
+          <div class="balloon-area" id="balloonArea"></div>
+          <div class="balloon-score">
+            Popped: <span id="balloonCount">0</span>
+            <span class="balloon-combo" id="balloonCombo" style="display:none">🔥 Combo x<span id="comboNum">1</span></span>
+          </div>
+          <button class="game-btn game-btn--green" onclick="initBalloons()">🎈 New Balloons</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══ NEWSLETTER ══ -->
+  <section id="newsletter">
+    <div class="newsletter-box reveal">
+      <div class="sec-eyebrow">📬 Stay Updated</div>
+      <h2 class="sec-title">Get Toy Deals &amp; Parenting Tips</h2>
+      <p class="sec-sub">Join 500+ parents already getting exclusive offers and fun activity ideas straight to their inbox.</p>
+      <div class="nl-form">
+        <input type="email" placeholder="Enter your email address" required>
+        <button type="button" onclick="this.textContent='Subscribed ✓';this.style.background='var(--mint)'">Subscribe Free</button>
+      </div>
+      <p class="nl-note">🔒 No spam ever. Unsubscribe anytime.</p>
+    </div>
+  </section>
+
+  <!-- ══ CONTACT ══ -->
+  <section id="contact">
+    <div class="sec-center">
+      <div class="sec-eyebrow">👋 Get In Touch</div>
+      <h2 class="sec-title">We'd Love to Hear from You</h2>
+      <p class="sec-sub">Questions, bulk orders, or just sharing the joy — we're always happy to chat!</p>
+    </div>
+    <div class="contact-grid">
+      <div class="reveal">
+        <p class="cinfo-head">Say Hello!</p>
+        <p class="cinfo-body">Whether it's a question about our toys, help with an order, or just a smile to share — drop us a message and we'll get back shortly.</p>
+        <div class="cinfo-row"><span class="cinfo-icon">📧</span><a href="mailto:nubeenest2491@gmail.com">nubeenest2491@gmail.com</a></div>
+        <div class="cinfo-row"><span class="cinfo-icon">📱</span><a href="tel:+916362391450">+91 63623 91450</a></div>
+        <div class="cinfo-row"><span class="cinfo-icon">📍</span><span>India</span></div>
+        <div class="cinfo-socials">
+          <a href="https://www.instagram.com/nubeenest.in?igsh=MWZjMnIwZnNvZ2t3ZQ==" target="_blank" rel="noopener" class="csocial insta">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="white"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          </a>
+          <a href="https://wa.me/916362391450" target="_blank" rel="noopener" class="csocial wa">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          </a>
+        </div>
+      </div>
+      <form action="https://formsubmit.co/nubeenest2491@gmail.com" method="POST" class="cform reveal">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message 🚀</button>
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_autoresponse" value="Thank you for contacting NubeeNest! We received your message and will respond shortly.">
+      </form>
+    </div>
+  </section>
+
+  <!-- ══ FOOTER ══ -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="images/WhatsApp Image 2026-03-31 at 18.18.41.jpeg" alt="NubeeNest"
+             onerror="this.style.display='none';document.getElementById('fltext').style.display='block'">
+        <div id="fltext" style="display:none">🪺 NubeeNest</div>
+        <p>Creative toys crafted to spark curiosity and bring endless joy to children everywhere.</p>
+        <div class="footer-socials">
+          <a href="https://www.instagram.com/nubeenest.in?igsh=MWZjMnIwZnNvZ2t3ZQ==" target="_blank" rel="noopener" class="fsocial insta">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="white"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          </a>
+          <a href="https://wa.me/916362391450" target="_blank" rel="noopener" class="fsocial wa">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h5>Quick Links</h5>
+        <a href="#">Home</a>
+        <a href="#products">Products</a>
+        <a href="#wa-order">WhatsApp Order</a>
+        <a href="#why">Why NubeeNest</a>
+        <a href="#testimonials">Reviews</a>
+      </div>
+      <div class="footer-col">
+        <h5>Shop On</h5>
+        <a href="https://amzn.in/d/06avxXTL" target="_blank" rel="noopener">Amazon</a>
+        <a href="#">Flipkart</a>
+      </div>
+      <div class="footer-col">
+        <h5>Contact</h5>
+        <a href="mailto:nubeenest2491@gmail.com">Email Us</a>
+        <a href="tel:+916362391450">+91 63623 91450</a>
+        <a href="https://wa.me/916362391450" target="_blank" rel="noopener">WhatsApp</a>
+        <a href="https://www.instagram.com/nubeenest.in" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 NubeeNest · Made with ♥ for happy kids everywhere</span>
+      <span class="footer-credit">Designed with 💜 in India</span>
+    </div>
+  </footer>
+
+  <!-- ══ FLOATING BUTTONS ══ -->
+  <div class="float-group">
+    <a href="https://www.instagram.com/nubeenest.in?igsh=MWZjMnIwZnNvZ2t3ZQ==" target="_blank" rel="noopener" class="insta-float" title="Follow on Instagram">
+      <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+    </a>
+    <a href="https://wa.me/916362391450" target="_blank" rel="noopener" class="wa-float" title="Chat on WhatsApp">
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
+    </a>
+  </div>
+
+  <!-- ══ JAVASCRIPT ══ -->
+  <script src="script.js"></script>
+</body>
+</html>
